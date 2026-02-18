@@ -25,7 +25,3 @@ forge test -vvv
 cd backend
 docker compose up -d
 ```
-
-## See Also
-
-- [CLAUDE.md](CLAUDE.md) — Full architecture specification and coding standards.
