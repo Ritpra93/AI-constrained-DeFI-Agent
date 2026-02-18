@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=75.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "risk-engine"
+version = "0.1.0"
+description = "Pure Python risk computation engine for DeFi portfolio management"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy==2.2.3",
+    "scipy==1.15.2",
+    "pandas==2.2.3",
+    "pydantic==2.10.6",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest==8.3.4",
+    "pytest-cov==6.0.0",
+    "mypy==1.14.1",
+]
+
+[tool.mypy]
+strict = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

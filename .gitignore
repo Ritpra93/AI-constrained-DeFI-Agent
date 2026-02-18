@@ -1,0 +1,47 @@
+# Foundry
+contracts/out/
+contracts/cache/
+contracts/lib/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+*.egg
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Monitoring data
+monitoring/prometheus/data/
+monitoring/grafana/data/
+
+# MLflow
+mlruns/
+mlflow/
+
+# Logs
+logs/
+*.log
+
+# Docker
+docker-compose.override.yml
+
+# Documentation (local explanation files, not committed)
+docs/
